@@ -1,0 +1,21 @@
+{
+  "name": "pregunta",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "enunciado": {
+      "type": "string",
+      "required": true
+    },
+    "autorId": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

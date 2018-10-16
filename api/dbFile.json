@@ -1,0 +1,26 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "pregunta": 3,
+    "autor": 3
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "pregunta": {
+      "1": "{\"enunciado\":\"De que color es el sol?\",\"autorId\":1,\"id\":1}",
+      "2": "{\"enunciado\":\"Esta lloviendo?\",\"autorId\":2,\"id\":2}"
+    },
+    "autor": {
+      "1": "{\"nombre\":\"Juan\",\"email\":\"juan@gmail.com\",\"id\":1}",
+      "2": "{\"nombre\":\"Pedro\",\"email\":\"pedro@gmail.com\",\"id\":2}"
+    }
+  }
+}
